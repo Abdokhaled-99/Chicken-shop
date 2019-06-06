@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Untitled.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>buts.png</file>
+  </qresource>
+</RCC>

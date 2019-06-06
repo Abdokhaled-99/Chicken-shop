@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1267</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dorg</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(187, 187, 187);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>20</y>
+      <width>771</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::NoSelection</enum>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>152</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>الاسم</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>من </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>الى</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>المبلغ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>التاريخ</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>20</y>
+      <width>75</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(197, 197, 197, 255), stop:0.55 rgba(119, 159, 197, 255), stop:0.971591 rgba(0, 64, 197, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0.00568182 rgba(163, 206, 224, 255), stop:0.590909 rgba(85, 182, 224, 255), stop:0.971591 rgba(255, 255, 0, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+    </property>
+    <property name="text">
+     <string>تسليم</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>250</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(250, 248, 148, 255), stop:0.55 rgba(255, 255, 127, 255), stop:0.971591 rgba(255, 255, 0, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+    </property>
+    <property name="text">
+     <string>الغاء البحث</string>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>130</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(218, 255, 255, 255), stop:0.55 rgba(81, 255, 211, 255), stop:0.971591 rgba(0, 180, 255, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+     </property>
+     <property name="text">
+      <string>بحث بالاسم</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QSplitter" name="splitter_3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>180</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(250, 248, 148, 255), stop:0.55 rgba(255, 255, 127, 255), stop:0.971591 rgba(255, 255, 0, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));
+background-color: qlineargradient(spread:reflect, x1:0.932, y1:0.938, x2:0.017, y2:0.035, stop:0 rgba(255, 0, 0, 255), stop:0.55 rgba(255, 114, 68, 255), stop:0.971591 rgba(255, 205, 222, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+     </property>
+     <property name="text">
+      <string>بحث بالتاريخ</string>
+     </property>
+    </widget>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2019</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy-MM-dd</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2019</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy-MM-dd</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1267</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

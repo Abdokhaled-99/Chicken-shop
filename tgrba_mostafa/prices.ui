@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Prices</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>chicken-emblem_10272-25.jpg</normaloff>chicken-emblem_10272-25.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(241, 241, 241, 255), stop:0.55 rgba(203, 203, 203, 255), stop:0.954545 rgba(155, 155, 155, 255), stop:0.971591 rgba(255, 255, 0, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>390</y>
+      <width>125</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(142, 174, 255, 255), stop:0.55 rgba(48, 107, 255, 255), stop:0.971591 rgba(0, 72, 255, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));
+gridline-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>حفظ</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>save.png</normaloff>save.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>37</width>
+      <height>48</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>241</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLineEdit" name="wrak">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="baneh">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="shesh">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="shawrma">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="agn7a">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="kbda">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="kbdw2wans">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="sdorb3zm">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="label_17">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>وراك</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>بانيه</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>شيش</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>شاورمة</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>اجنحة</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>كبدة</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>كبد وقوانص</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>صدور بعظم</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QSplitter" name="splitter_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>20</y>
+      <width>220</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLineEdit" name="chick">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ata2i">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="shmort">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dove">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="wez">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="duck">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="rabb">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dabos">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="hyakl">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSplitter" name="splitter_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.932, y1:0.938, x2:0.017, y2:0.035, stop:0 rgba(255, 91, 91, 255), stop:0.55 rgba(255, 173, 146, 255), stop:0.971591 rgba(255, 205, 222, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>فراخ بيضة</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(251, 168, 210, 255), stop:0.55 rgba(251, 111, 182, 255), stop:0.971591 rgba(255, 5, 90, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>عتاقي</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(251, 168, 210, 255), stop:0.55 rgba(251, 111, 182, 255), stop:0.971591 rgba(255, 5, 90, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>شمورت</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(200, 255, 180, 255), stop:0.55 rgba(123, 249, 124, 255), stop:0.971591 rgba(0, 255, 28, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>حمام</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(218, 255, 255, 255), stop:0.55 rgba(81, 255, 211, 255), stop:0.971591 rgba(0, 180, 255, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>اوز</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(197, 197, 197, 255), stop:0.55 rgba(119, 159, 197, 255), stop:0.971591 rgba(0, 64, 197, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>بط</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(250, 248, 148, 255), stop:0.55 rgba(255, 255, 127, 255), stop:0.971591 rgba(255, 255, 0, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>ارانب</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>دبابيس</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0.046, y1:0.08, x2:1, y2:1, stop:0 rgba(243, 230, 214, 255), stop:0.55 rgba(243, 168, 118, 255), stop:0.971591 rgba(243, 90, 49, 255), stop:0.977273 rgba(189, 189, 189, 255), stop:1 rgba(189, 189, 189, 255));</string>
+      </property>
+      <property name="text">
+       <string>هياكل</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>chick</tabstop>
+  <tabstop>ata2i</tabstop>
+  <tabstop>shmort</tabstop>
+  <tabstop>dove</tabstop>
+  <tabstop>wez</tabstop>
+  <tabstop>duck</tabstop>
+  <tabstop>rabb</tabstop>
+  <tabstop>dabos</tabstop>
+  <tabstop>hyakl</tabstop>
+  <tabstop>wrak</tabstop>
+  <tabstop>baneh</tabstop>
+  <tabstop>shesh</tabstop>
+  <tabstop>shawrma</tabstop>
+  <tabstop>agn7a</tabstop>
+  <tabstop>kbda</tabstop>
+  <tabstop>kbdw2wans</tabstop>
+  <tabstop>sdorb3zm</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
